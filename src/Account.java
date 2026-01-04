@@ -19,8 +19,9 @@ public class Account {
         balance += amount;
     }
 
-
+    @Override
     public String toString() {
         return "Account{number='" + accountNumber + "', balance=" + balance + "}";
     }
 }
+
